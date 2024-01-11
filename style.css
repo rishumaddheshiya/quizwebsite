@@ -1,0 +1,69 @@
+
+*{
+    margin:0;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+
+.main{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+
+#box{
+    background: linear-gradient(rgb(237, 145, 227), rgb(95, 217, 233));
+    margin: 10px;
+    padding: 20px;
+    height: auto;
+width: auto;
+    border: 2px solid red;
+border-radius: 5px;}
+ol{ list-style: lower-alpha;
+
+
+    margin: 20px;
+}
+li{    color: rgb(25, 0, 255);
+    font-size: 1.25rem;
+    font-family: 'Noto Sans', sans-serif;
+    padding: 15px;
+}
+.btn{
+    display: inline-block;
+    width: auto;
+    margin: auto;
+
+
+}
+button{
+    width: auto;
+    font-size: 1.25rem;
+    padding:  5px 15px;
+    margin:   20px 10px;
+    border: 1px solid rgb(8, 221, 19);
+    border-radius: 15px;
+    background-color: rgb(8, 233, 8);
+    cursor: pointer;
+}
+h2{font-family: 'Noto Sans', sans-serif;
+    font-size: 1.75rem;
+    color: rgb(242, 255, 0);
+    margin:15px;
+}
+h1{    font-family: 'Noto Sans', sans-serif;
+color: rgb(238, 6, 192);
+padding: 10px;
+    font-size: 4.75rem;
+}
+h3{
+    font-family: 'Bungee Spice', sans-serif;
+   
+    padding: 10px;
+        font-size: 1.75rem;
+}
